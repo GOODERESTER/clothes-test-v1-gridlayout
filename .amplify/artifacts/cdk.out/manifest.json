@@ -1,0 +1,1344 @@
+{
+  "version": "36.0.14",
+  "artifacts": {
+    "amplify-clothestestv1-harri-sandbox-ce820fa2d1.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "amplify-clothestestv1-harri-sandbox-ce820fa2d1.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "amplify-clothestestv1-harri-sandbox-ce820fa2d1": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "amplify-clothestestv1-harri-sandbox-ce820fa2d1.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "amplify:deployment-type": "sandbox",
+          "created-by": "amplify"
+        },
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/b528eeffb9143d3d094ac706fbfe6632e33853f9109c54f7a4950cc0ce9db5f5.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "amplify-clothestestv1-harri-sandbox-ce820fa2d1.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "amplify-clothestestv1-harri-sandbox-ce820fa2d1.assets"
+      ],
+      "metadata": {
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "amplify:deployment-type",
+                "Value": "sandbox"
+              },
+              {
+                "Key": "created-by",
+                "Value": "amplify"
+              }
+            ]
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/deploymentType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deploymentType"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/region": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "region"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/auth/amplifyAuth/UserPool/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPool4BA7F805"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/auth/amplifyAuth/UserPoolAppClient/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPoolAppClient2626C6F8"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/auth/amplifyAuth/IdentityPool": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPool3FDE84CC"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/auth/amplifyAuth/authenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthauthenticatedUserRoleD8DA3689"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/auth/amplifyAuth/unauthenticatedUserRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthunauthenticatedUserRole2B524D9E"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/auth/amplifyAuth/IdentityPoolRoleAttachment": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthIdentityPoolRoleAttachment045F17C8"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/auth/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/auth/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/auth/amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthUserPoolFB620D87Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthUserPoolFB620D87Ref"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/auth/amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthUserPoolAppClient10782A1BRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthUserPoolAppClient10782A1BRef"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/auth/amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthIdentityPool8D02067BRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthIdentityPool8D02067BRef"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/auth/amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthauthenticatedUserRole17A9555DRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthauthenticatedUserRole17A9555DRef"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/auth/amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthunauthenticatedUserRoleD2BDF296Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthunauthenticatedUserRoleD2BDF296Ref"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/auth.NestedStack/auth.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "auth179371D7"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/userPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "userPoolId"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/webClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webClientId"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/identityPoolId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "identityPoolId"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/authRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "authRegion"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/allowUnauthenticatedIdentities": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "allowUnauthenticatedIdentities"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/signupAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "signupAttributes"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/usernameAttributes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "usernameAttributes"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/verificationMechanisms": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "verificationMechanisms"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/passwordPolicyMinLength": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyMinLength"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/passwordPolicyRequirements": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "passwordPolicyRequirements"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/mfaConfiguration": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaConfiguration"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/mfaTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "mfaTypes"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/socialProviders": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "socialProviders"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/oauthCognitoDomain": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthCognitoDomain"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/oauthScope": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthScope"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/oauthRedirectSignIn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignIn"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/oauthRedirectSignOut": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthRedirectSignOut"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/oauthResponseType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthResponseType"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/oauthClientId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "oauthClientId"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/GraphQLAPI": [
+          {
+            "type": "aws:cdk:warning",
+            "data": "@predictions is deprecated. This functionality will be removed in the next major release.",
+            "trace": [
+              "Annotations.addMessage (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
+              "Annotations.addWarning (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:931)",
+              "PredictionsTransformer.PredictionsTransformer.generateResolvers (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\graphql-api-construct\\node_modules\\@aws-amplify\\graphql-predictions-transformer\\src\\graphql-predictions-transformer.ts:158:39)",
+              "GraphQLTransform.transform (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\graphql-api-construct\\node_modules\\@aws-amplify\\graphql-transformer-core\\src\\transformation\\transform.ts:318:21)",
+              "executeTransform (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\graphql-api-construct\\node_modules\\@aws-amplify\\graphql-transformer\\src\\graphql-transformer.ts:166:15)",
+              "AmplifyGraphqlApi (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\graphql-api-construct\\src\\amplify-graphql-api.ts:225:21)",
+              "DataGenerator.generateContainerEntry (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend-data\\src\\factory.ts:236:20)",
+              "SingletonConstructContainer.getOrCompute (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend\\src\\engine\\singleton_construct_container.ts:51:19)",
+              "DataFactory.getInstance (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend-data\\src\\factory.ts:109:31)",
+              "<anonymous> (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend\\src\\backend_factory.ts:115:68)",
+              "Array.forEach (<anonymous>)",
+              "BackendFactory (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend\\src\\backend_factory.ts:111:40)",
+              "defineBackend (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend\\src\\backend_factory.ts:155:19)",
+              "import_resource (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\amplify\\backend.ts:9:1)",
+              "Object.<anonymous> (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\amplify\\backend.ts:13:2)",
+              "Module._compile (node:internal/modules/cjs/loader:1358:14)",
+              "Object.transformer (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\tsx\\dist\\register-C1urN2EO.cjs:2:1122)",
+              "Module.load (node:internal/modules/cjs/loader:1208:32)",
+              "Module._load (node:internal/modules/cjs/loader:1024:12)",
+              "cjsLoader (node:internal/modules/esm/translators:348:17)",
+              "ModuleWrap.<anonymous> (node:internal/modules/esm/translators:297:7)",
+              "ModuleJob.run (node:internal/modules/esm/module_job:222:25)",
+              "async ModuleLoader.import (node:internal/modules/esm/loader:316:24)",
+              "async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)"
+            ]
+          },
+          {
+            "type": "aws:cdk:warning",
+            "data": "@manyToMany is deprecated. This functionality will be removed in the next major release.",
+            "trace": [
+              "Annotations.addMessage (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
+              "Annotations.addWarning (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:931)",
+              "ManyToManyTransformer.ManyToManyTransformer.generateResolvers (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\graphql-api-construct\\node_modules\\@aws-amplify\\graphql-relational-transformer\\src\\graphql-many-to-many-transformer.ts:516:35)",
+              "GraphQLTransform.transform (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\graphql-api-construct\\node_modules\\@aws-amplify\\graphql-transformer-core\\src\\transformation\\transform.ts:318:21)",
+              "executeTransform (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\graphql-api-construct\\node_modules\\@aws-amplify\\graphql-transformer\\src\\graphql-transformer.ts:166:15)",
+              "AmplifyGraphqlApi (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\graphql-api-construct\\src\\amplify-graphql-api.ts:225:21)",
+              "DataGenerator.generateContainerEntry (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend-data\\src\\factory.ts:236:20)",
+              "SingletonConstructContainer.getOrCompute (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend\\src\\engine\\singleton_construct_container.ts:51:19)",
+              "DataFactory.getInstance (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend-data\\src\\factory.ts:109:31)",
+              "<anonymous> (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend\\src\\backend_factory.ts:115:68)",
+              "Array.forEach (<anonymous>)",
+              "BackendFactory (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend\\src\\backend_factory.ts:111:40)",
+              "defineBackend (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend\\src\\backend_factory.ts:155:19)",
+              "import_resource (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\amplify\\backend.ts:9:1)",
+              "Object.<anonymous> (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\amplify\\backend.ts:13:2)",
+              "Module._compile (node:internal/modules/cjs/loader:1358:14)",
+              "Object.transformer (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\tsx\\dist\\register-C1urN2EO.cjs:2:1122)",
+              "Module.load (node:internal/modules/cjs/loader:1208:32)",
+              "Module._load (node:internal/modules/cjs/loader:1024:12)",
+              "cjsLoader (node:internal/modules/esm/translators:348:17)",
+              "ModuleWrap.<anonymous> (node:internal/modules/esm/translators:297:7)",
+              "ModuleJob.run (node:internal/modules/esm/module_job:222:25)",
+              "async ModuleLoader.import (node:internal/modules/esm/loader:316:24)",
+              "async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)"
+            ]
+          },
+          {
+            "type": "aws:cdk:warning",
+            "data": "@searchable is deprecated. This functionality will be removed in the next major release.",
+            "trace": [
+              "Annotations.addMessage (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:1608)",
+              "Annotations.addWarning (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\aws-cdk-lib\\core\\lib\\annotations.js:1:931)",
+              "SearchableModelTransformer.SearchableModelTransformer.generateResolvers (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\graphql-api-construct\\node_modules\\@aws-amplify\\graphql-searchable-transformer\\src\\graphql-searchable-transformer.ts:286:35)",
+              "GraphQLTransform.transform (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\graphql-api-construct\\node_modules\\@aws-amplify\\graphql-transformer-core\\src\\transformation\\transform.ts:318:21)",
+              "executeTransform (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\graphql-api-construct\\node_modules\\@aws-amplify\\graphql-transformer\\src\\graphql-transformer.ts:166:15)",
+              "AmplifyGraphqlApi (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\graphql-api-construct\\src\\amplify-graphql-api.ts:225:21)",
+              "DataGenerator.generateContainerEntry (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend-data\\src\\factory.ts:236:20)",
+              "SingletonConstructContainer.getOrCompute (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend\\src\\engine\\singleton_construct_container.ts:51:19)",
+              "DataFactory.getInstance (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend-data\\src\\factory.ts:109:31)",
+              "<anonymous> (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend\\src\\backend_factory.ts:115:68)",
+              "Array.forEach (<anonymous>)",
+              "BackendFactory (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend\\src\\backend_factory.ts:111:40)",
+              "defineBackend (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\@aws-amplify\\backend\\src\\backend_factory.ts:155:19)",
+              "import_resource (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\amplify\\backend.ts:9:1)",
+              "Object.<anonymous> (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\amplify\\backend.ts:13:2)",
+              "Module._compile (node:internal/modules/cjs/loader:1358:14)",
+              "Object.transformer (D:\\my work\\Website\\Clothes Client\\clothes-test-v1-gridlayout\\node_modules\\tsx\\dist\\register-C1urN2EO.cjs:2:1122)",
+              "Module.load (node:internal/modules/cjs/loader:1208:32)",
+              "Module._load (node:internal/modules/cjs/loader:1024:12)",
+              "cjsLoader (node:internal/modules/esm/translators:348:17)",
+              "ModuleWrap.<anonymous> (node:internal/modules/esm/translators:297:7)",
+              "ModuleJob.run (node:internal/modules/esm/module_job:222:25)",
+              "async ModuleLoader.import (node:internal/modules/esm/loader:316:24)",
+              "async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:123:5)"
+            ]
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/GraphQLAPI/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPI42A6FA33"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/GraphQLAPI/TransformerSchema": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPITransformerSchemaFF50A789"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/GraphQLAPI/NONE_DS": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/GraphQLAPI/NONE_DS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPINONEDS684BF699"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NONE_DS"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyTableManager/AmplifyManagedTableIsCompleteRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableIsCompleteRoleF825222C"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleB4E71DEA"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyManagedTableOnEventRoleDefaultPolicyF6DABCB6"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-onEvent/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkonEvent1DFC2ECC"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-isComplete/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TableManagerCustomProviderframeworkisComplete2E51021B"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRole470BE899"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachineRoleDefaultPolicy89F3836A"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AmplifyTableWaiterStateMachine060600BC"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyTableManager/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyTableManager/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyTableManager/reference-to-amplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataGraphQLAPI75C4ADBDApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataGraphQLAPI75C4ADBDApiId"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyTableManager/amplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEventA656A7F7Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEventA656A7F7Arn"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyTableManager.NestedStack/AmplifyTableManager.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource86290833"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/HasEnvironmentParameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HasEnvironmentParameter"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/ShouldUseServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUseServerSideEncryption"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/ShouldUsePayPerRequestBilling": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePayPerRequestBilling"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/ShouldUsePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ShouldUsePointInTimeRecovery"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/NoteTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Note"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/NoteTable/Default/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NoteTable"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Note"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/CustomTableNoteTable": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Note"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/GetAttNoteTableStreamArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttNoteTableStreamArn"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/GetAttNoteTableName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetAttNoteTableName"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/NoteIAMRole": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NoteIAMRole"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/NoteIAMRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NoteIAMRoleCA742F19"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NoteIAMRole"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/NoteDataSource": [
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NoteTable"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/NoteDataSource/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NoteDataSource"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NoteTable"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/QuerygetNoteauth0Function/QuerygetNoteauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetNoteauth0FunctionQuerygetNoteauth0FunctionAppSyncFunction1125F54B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetNoteauth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/QuerygetNotepostAuth0Function/QuerygetNotepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerygetNotepostAuth0FunctionQuerygetNotepostAuth0FunctionAppSyncFunctionBC9940CA"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerygetNotepostAuth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/QueryGetNoteDataResolverFn/QueryGetNoteDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryGetNoteDataResolverFnQueryGetNoteDataResolverFnAppSyncFunction2F346125"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryGetNoteDataResolverFn"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/queryGetNoteResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GetNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.getNote"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/QuerylistNotesauth0Function/QuerylistNotesauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistNotesauth0FunctionQuerylistNotesauth0FunctionAppSyncFunction4C828F45"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistNotesauth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/QuerylistNotespostAuth0Function/QuerylistNotespostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QuerylistNotespostAuth0FunctionQuerylistNotespostAuth0FunctionAppSyncFunctionCEA378D3"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QuerylistNotespostAuth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/QueryListNotesDataResolverFn/QueryListNotesDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "QueryListNotesDataResolverFnQueryListNotesDataResolverFnAppSyncFunctionBD5C872B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "QueryListNotesDataResolverFn"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/queryListNotesResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ListNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Query.listNotes"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/MutationcreateNoteinit0Function/MutationcreateNoteinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateNoteinit0FunctionMutationcreateNoteinit0FunctionAppSyncFunction336343A0"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateNoteinit0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/MutationcreateNoteauth0Function/MutationcreateNoteauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateNoteauth0FunctionMutationcreateNoteauth0FunctionAppSyncFunction24439C2F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateNoteauth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/MutationcreateNotepostAuth0Function/MutationcreateNotepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationcreateNotepostAuth0FunctionMutationcreateNotepostAuth0FunctionAppSyncFunction6D427EC4"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationcreateNotepostAuth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/MutationCreateNoteDataResolverFn/MutationCreateNoteDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationCreateNoteDataResolverFnMutationCreateNoteDataResolverFnAppSyncFunction591F5456"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationCreateNoteDataResolverFn"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/mutationCreateNoteResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CreateNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.createNote"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/MutationupdateNoteinit0Function/MutationupdateNoteinit0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateNoteinit0FunctionMutationupdateNoteinit0FunctionAppSyncFunction19D28B0F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateNoteinit0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/MutationupdateNoteauth0Function/MutationupdateNoteauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateNoteauth0FunctionMutationupdateNoteauth0FunctionAppSyncFunction72CAF43F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateNoteauth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/MutationupdateNotepostAuth0Function/MutationupdateNotepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationupdateNotepostAuth0FunctionMutationupdateNotepostAuth0FunctionAppSyncFunction7DBB904D"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationupdateNotepostAuth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/MutationUpdateNoteDataResolverFn/MutationUpdateNoteDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationUpdateNoteDataResolverFnMutationUpdateNoteDataResolverFnAppSyncFunctionBCC5D9E4"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationUpdateNoteDataResolverFn"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/mutationUpdateNoteResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UpdateNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.updateNote"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/MutationdeleteNoteauth0Function/MutationdeleteNoteauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteNoteauth0FunctionMutationdeleteNoteauth0FunctionAppSyncFunction5FE2B4D0"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteNoteauth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/MutationdeleteNotepostAuth0Function/MutationdeleteNotepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationdeleteNotepostAuth0FunctionMutationdeleteNotepostAuth0FunctionAppSyncFunction5E0783EF"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationdeleteNotepostAuth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/MutationDeleteNoteDataResolverFn/MutationDeleteNoteDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MutationDeleteNoteDataResolverFnMutationDeleteNoteDataResolverFnAppSyncFunction3FA3FDA0"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "MutationDeleteNoteDataResolverFn"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/mutationDeleteNoteResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DeleteNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Mutation.deleteNote"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/SubscriptiononCreateNoteauth0Function/SubscriptiononCreateNoteauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateNoteauth0FunctionSubscriptiononCreateNoteauth0FunctionAppSyncFunction853C832F"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateNoteauth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/SubscriptiononCreateNotepostAuth0Function/SubscriptiononCreateNotepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateNotepostAuth0FunctionSubscriptiononCreateNotepostAuth0FunctionAppSyncFunction2FE4DC1E"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononCreateNotepostAuth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/SubscriptionOnCreateNoteDataResolverFn/SubscriptionOnCreateNoteDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnCreateNoteDataResolverFnSubscriptionOnCreateNoteDataResolverFnAppSyncFunction37D6FFF2"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnCreateNoteDataResolverFn"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/subscriptionOnCreateNoteResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononCreateNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onCreateNote"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/SubscriptiononUpdateNoteauth0Function/SubscriptiononUpdateNoteauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateNoteauth0FunctionSubscriptiononUpdateNoteauth0FunctionAppSyncFunction2413D644"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateNoteauth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/SubscriptiononUpdateNotepostAuth0Function/SubscriptiononUpdateNotepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateNotepostAuth0FunctionSubscriptiononUpdateNotepostAuth0FunctionAppSyncFunction30ABF2EE"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononUpdateNotepostAuth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/SubscriptionOnUpdateNoteDataResolverFn/SubscriptionOnUpdateNoteDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnUpdateNoteDataResolverFnSubscriptionOnUpdateNoteDataResolverFnAppSyncFunctionE4137817"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnUpdateNoteDataResolverFn"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/subscriptionOnUpdateNoteResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononUpdateNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onUpdateNote"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/SubscriptiononDeleteNoteauth0Function/SubscriptiononDeleteNoteauth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteNoteauth0FunctionSubscriptiononDeleteNoteauth0FunctionAppSyncFunction1B717F3B"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteNoteauth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/SubscriptiononDeleteNotepostAuth0Function/SubscriptiononDeleteNotepostAuth0Function.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteNotepostAuth0FunctionSubscriptiononDeleteNotepostAuth0FunctionAppSyncFunction7D4AF5B3"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptiononDeleteNotepostAuth0Function"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/SubscriptionOnDeleteNoteDataResolverFn/SubscriptionOnDeleteNoteDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptionOnDeleteNoteDataResolverFnSubscriptionOnDeleteNoteDataResolverFnAppSyncFunctionA1CED045"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "SubscriptionOnDeleteNoteDataResolverFn"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/subscriptionOnDeleteNoteResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SubscriptiononDeleteNoteResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Subscription.onDeleteNote"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/NoteOwnerDataResolverFn/NoteOwnerDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NoteOwnerDataResolverFnNoteOwnerDataResolverFnAppSyncFunction66A7C72C"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "NoteOwnerDataResolverFn"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/noteOwnerResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "NoteownerResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "Note.owner"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/reference-to-amplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceB1B512B7Outputs.amplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEventA656A7F7Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceB1B512B7Outputsamplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataAmplifyTableManagerTableManagerC120A055B"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/reference-to-amplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataGraphQLAPI75C4ADBDApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataGraphQLAPI75C4ADBDApiId"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/reference-to-amplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataGraphQLAPINONEDS9E162D92Name": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataGraphQLAPINONEDS9E162D92Name"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/reference-to-amplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputs.amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthauthenticatedUserRole17A9555DRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputsamplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthauthenticatedUserRole17A9555DRef"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/reference-to-amplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputs.amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthunauthenticatedUserRoleD2BDF296Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputsamplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthunauthenticatedUserRoleD2BDF296Ref"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note/reference-to-amplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputs.amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthIdentityPool8D02067BRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputsamplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthIdentityPool8D02067BRef"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/Note.NestedStack/Note.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataNoteNestedStackNoteNestedStackResourceA19C7467"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucket9CCB4ACA"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketPolicyF1C1C548"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketAutoDeleteObjectsCustomResource437F26F5"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/CustomResource-1536MiB/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB21775929"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/DynamoDBModelTableReadIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableReadIOPS"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/DynamoDBModelTableWriteIOPS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBModelTableWriteIOPS"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/DynamoDBBillingMode": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBBillingMode"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/DynamoDBEnablePointInTimeRecovery": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnablePointInTimeRecovery"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/DynamoDBEnableServerSideEncryption": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DynamoDBEnableServerSideEncryption"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/LatestNodeRuntimeMap": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LatestNodeRuntimeMap"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+            "data": true
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-singleton",
+            "data": true
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleA41FC8C2"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleDefaultPolicyFF1C635B"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBC5D8AB21"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/AMPLIFY_DATA_GRAPHQL_ENDPOINTParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYDATAGRAPHQLENDPOINTParameter1C2CBB16"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/reference-to-amplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputs.amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthUserPoolFB620D87Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputsamplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthUserPoolFB620D87Ref"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/reference-to-amplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputs.amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthauthenticatedUserRole17A9555DRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputsamplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthauthenticatedUserRole17A9555DRef"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/reference-to-amplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputs.amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthunauthenticatedUserRoleD2BDF296Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputsamplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthunauthenticatedUserRoleD2BDF296Ref"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/reference-to-amplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputs.amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthIdentityPool8D02067BRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputsamplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthIdentityPool8D02067BRef"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataGraphQLAPI75C4ADBDApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataGraphQLAPI75C4ADBDApiId"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataGraphQLAPI75C4ADBDGraphQLUrl": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataGraphQLAPI75C4ADBDGraphQLUrl"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data/amplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB1BD20262DestinationBucketArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyclothestestv1harrisandboxce820fa2d1dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB1BD20262DestinationBucketArn"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/data.NestedStack/data.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "data7552DF31"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/awsAppsyncApiId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiId"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/awsAppsyncApiEndpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiEndpoint"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/awsAppsyncAuthenticationType": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAuthenticationType"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/awsAppsyncRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncRegion"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/amplifyApiModelSchemaS3Uri": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyApiModelSchemaS3Uri"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/awsAppsyncAdditionalAuthenticationTypes": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncAdditionalAuthenticationTypes"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/amplifyNotesDrive/Bucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyNotesDriveBucket18812970"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/amplifyNotesDrive/Bucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyNotesDriveBucketPolicyDA61A3F7"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/amplifyNotesDrive/Bucket/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyNotesDriveBucketAutoDeleteObjectsCustomResourceD70667A3"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/LatestNodeRuntimeMap": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LatestNodeRuntimeMap"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+          {
+            "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+            "data": true
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/AMPLIFY_NOTES_DRIVE_BUCKET_NAMEParameter/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AMPLIFYNOTESDRIVEBUCKETNAMEParameter63173C1F"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/storageAccess4/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "storageAccess472A5D2AC"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/reference-to-amplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputs.amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthauthenticatedUserRole17A9555DRef": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputsamplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthauthenticatedUserRole17A9555DRef"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/amplifyclothestestv1harrisandboxce820fa2d1storageamplifyNotesDriveBucket9D6A9120Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyclothestestv1harrisandboxce820fa2d1storageamplifyNotesDriveBucket9D6A9120Ref"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage.NestedStack/storage.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "storage0EC3F24A"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storageRegion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "storageRegion"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/bucketName": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "bucketName"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/buckets": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "buckets"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "amplify-clothestestv1-harri-sandbox-ce820fa2d1"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}
