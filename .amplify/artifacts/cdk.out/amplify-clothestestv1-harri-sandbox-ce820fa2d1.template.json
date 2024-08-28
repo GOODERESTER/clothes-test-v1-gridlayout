@@ -354,6 +354,12 @@
    "Type": "AWS::CloudFormation::Stack",
    "Properties": {
     "Parameters": {
+     "referencetoamplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputsamplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthunauthenticatedUserRoleD2BDF296Ref": {
+      "Fn::GetAtt": [
+       "auth179371D7",
+       "Outputs.amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthunauthenticatedUserRoleD2BDF296Ref"
+      ]
+     },
      "referencetoamplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputsamplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthauthenticatedUserRole17A9555DRef": {
       "Fn::GetAtt": [
        "auth179371D7",
@@ -387,7 +393,7 @@
        {
         "Fn::Sub": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}"
        },
-       "/29c2e5cad47f1a41b083e8a997e763e53a24d878dfe2e6b007c014b39d55059b.json"
+       "/efe3f747b8c01d6dc26ca7941b3d4e74c565035737425de592e99d52dbfbd58d.json"
       ]
      ]
     }

@@ -265,28 +265,46 @@
       {
        "Action": "s3:GetObject",
        "Effect": "Allow",
-       "Resource": {
-        "Fn::Join": [
-         "",
-         [
-          {
-           "Fn::GetAtt": [
-            "amplifyNotesDriveBucket18812970",
-            "Arn"
-           ]
-          },
-          "/media/${cognito-identity.amazonaws.com:sub}/*"
+       "Resource": [
+        {
+         "Fn::Join": [
+          "",
+          [
+           {
+            "Fn::GetAtt": [
+             "amplifyNotesDriveBucket18812970",
+             "Arn"
+            ]
+           },
+           "/profile-pictures/*/*"
+          ]
          ]
-        ]
-       }
+        },
+        {
+         "Fn::Join": [
+          "",
+          [
+           {
+            "Fn::GetAtt": [
+             "amplifyNotesDriveBucket18812970",
+             "Arn"
+            ]
+           },
+           "/picture-submissions/*"
+          ]
+         ]
+        }
+       ]
       },
       {
        "Action": "s3:ListBucket",
        "Condition": {
         "StringLike": {
          "s3:prefix": [
-          "media/${cognito-identity.amazonaws.com:sub}/*",
-          "media/${cognito-identity.amazonaws.com:sub}/"
+          "profile-pictures/*/*",
+          "profile-pictures/*/",
+          "picture-submissions/*",
+          "picture-submissions/"
          ]
         }
        },
@@ -311,10 +329,117 @@
             "Arn"
            ]
           },
-          "/media/${cognito-identity.amazonaws.com:sub}/*"
+          "/picture-submissions/*"
          ]
         ]
        }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "PolicyName": "storageAccess472A5D2AC",
+    "Roles": [
+     {
+      "Ref": "referencetoamplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputsamplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthunauthenticatedUserRoleD2BDF296Ref"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/storageAccess4/Resource"
+   }
+  },
+  "storageAccess524979CAB": {
+   "Type": "AWS::IAM::Policy",
+   "Properties": {
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": "s3:GetObject",
+       "Effect": "Allow",
+       "Resource": [
+        {
+         "Fn::Join": [
+          "",
+          [
+           {
+            "Fn::GetAtt": [
+             "amplifyNotesDriveBucket18812970",
+             "Arn"
+            ]
+           },
+           "/profile-pictures/${cognito-identity.amazonaws.com:sub}/*"
+          ]
+         ]
+        },
+        {
+         "Fn::Join": [
+          "",
+          [
+           {
+            "Fn::GetAtt": [
+             "amplifyNotesDriveBucket18812970",
+             "Arn"
+            ]
+           },
+           "/picture-submissions/*"
+          ]
+         ]
+        }
+       ]
+      },
+      {
+       "Action": "s3:ListBucket",
+       "Condition": {
+        "StringLike": {
+         "s3:prefix": [
+          "profile-pictures/${cognito-identity.amazonaws.com:sub}/*",
+          "profile-pictures/${cognito-identity.amazonaws.com:sub}/",
+          "picture-submissions/*",
+          "picture-submissions/"
+         ]
+        }
+       },
+       "Effect": "Allow",
+       "Resource": {
+        "Fn::GetAtt": [
+         "amplifyNotesDriveBucket18812970",
+         "Arn"
+        ]
+       }
+      },
+      {
+       "Action": "s3:PutObject",
+       "Effect": "Allow",
+       "Resource": [
+        {
+         "Fn::Join": [
+          "",
+          [
+           {
+            "Fn::GetAtt": [
+             "amplifyNotesDriveBucket18812970",
+             "Arn"
+            ]
+           },
+           "/profile-pictures/${cognito-identity.amazonaws.com:sub}/*"
+          ]
+         ]
+        },
+        {
+         "Fn::Join": [
+          "",
+          [
+           {
+            "Fn::GetAtt": [
+             "amplifyNotesDriveBucket18812970",
+             "Arn"
+            ]
+           },
+           "/picture-submissions/*"
+          ]
+         ]
+        }
+       ]
       },
       {
        "Action": "s3:DeleteObject",
@@ -329,7 +454,7 @@
             "Arn"
            ]
           },
-          "/media/${cognito-identity.amazonaws.com:sub}/*"
+          "/profile-pictures/${cognito-identity.amazonaws.com:sub}/*"
          ]
         ]
        }
@@ -337,7 +462,7 @@
      ],
      "Version": "2012-10-17"
     },
-    "PolicyName": "storageAccess472A5D2AC",
+    "PolicyName": "storageAccess524979CAB",
     "Roles": [
      {
       "Ref": "referencetoamplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputsamplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthauthenticatedUserRole17A9555DRef"
@@ -345,7 +470,7 @@
     ]
    },
    "Metadata": {
-    "aws:cdk:path": "amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/storageAccess4/Resource"
+    "aws:cdk:path": "amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/storageAccess5/Resource"
    }
   },
   "CDKMetadata": {
@@ -750,6 +875,9 @@
   }
  },
  "Parameters": {
+  "referencetoamplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputsamplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthunauthenticatedUserRoleD2BDF296Ref": {
+   "Type": "String"
+  },
   "referencetoamplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputsamplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthauthenticatedUserRole17A9555DRef": {
    "Type": "String"
   }

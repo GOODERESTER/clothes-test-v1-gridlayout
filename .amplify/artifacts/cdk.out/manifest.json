@@ -22,7 +22,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/b528eeffb9143d3d094ac706fbfe6632e33853f9109c54f7a4950cc0ce9db5f5.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e1da90518ae6b2ca1d841abda16bb0c54fdccb76b6a4930363395ebc96f26c7b.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -1259,6 +1259,12 @@
             "data": "storageAccess472A5D2AC"
           }
         ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/storageAccess5/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "storageAccess524979CAB"
+          }
+        ],
         "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/CDKMetadata/Default": [
           {
             "type": "aws:cdk:logicalId",
@@ -1269,6 +1275,12 @@
           {
             "type": "aws:cdk:logicalId",
             "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/reference-to-amplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputs.amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthunauthenticatedUserRoleD2BDF296Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputsamplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthunauthenticatedUserRoleD2BDF296Ref"
           }
         ],
         "/amplify-clothestestv1-harri-sandbox-ce820fa2d1/storage/reference-to-amplifyclothestestv1harrisandboxce820fa2d1authNestedStackauthNestedStackResourceC78A3C1FOutputs.amplifyclothestestv1harrisandboxce820fa2d1authamplifyAuthauthenticatedUserRole17A9555DRef": [
