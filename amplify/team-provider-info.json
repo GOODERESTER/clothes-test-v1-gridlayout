@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-clothestestv1gridlay-dev-3c735-authRole",
+      "UnauthRoleArn": "arn:aws:iam::445567091377:role/amplify-clothestestv1gridlay-dev-3c735-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::445567091377:role/amplify-clothestestv1gridlay-dev-3c735-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-clothestestv1gridlay-dev-3c735-deployment",
+      "UnauthRoleName": "amplify-clothestestv1gridlay-dev-3c735-unauthRole",
+      "StackName": "amplify-clothestestv1gridlay-dev-3c735",
+      "StackId": "arn:aws:cloudformation:us-east-2:445567091377:stack/amplify-clothestestv1gridlay-dev-3c735/add2efa0-666f-11ef-b594-021e3db7e5dd",
+      "AmplifyAppId": "d2qmtzc7ce9suh"
+    }
+  }
+}
